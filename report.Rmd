@@ -1,0 +1,81 @@
+---
+title: "individual_report"
+author: "Hazem Mslati_10599158"
+date: "4/3/2022"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Individual report 
+
+
+
+## PEER EVALUATION
+
+***Team 3***
+
+Howdy folks,
+
+* Elevate
+
+Perhaps in the future you may consider the PAM clustering in addition to the K-means (medadoids vs centroids based principles). This may provide more insights on overlap and difference. 
+
+* Suggest
+
+If i may, as someone coming from a biochem background, I would have liked to see pathways analysis.
+
+* Inquire
+
+How come in cluster 3, E6 number of cells is less than E5?
+
+* Reflect
+
+Really well organized presentation. Impressive that you have been able to provide an edge over their existing method (since they are published in Cell).
+
+## A CONCISE SUMMARY OF CONTRIBUTIONS OF EACH GROUP MEMBER 
+
+**Describes the tasks and contributions of each of your group members**
+
+- Fiel Dimayacyac: was tasked with repository and pipeline management. Furthermore, Fiel participated in deriving conclusions and he greatly contributed to the presentation drafting and polishing. 
+
+- Anne-Sophie Ftrazscher: was tasked with data cleaning and quality control. Anne-Sophie also contributed to pipeline management and to statistical analysis and methods.
+
+- Grace Yin: was tasked with statistical analysis. Grace contributed to managing the pace of the project and greatly contributed to compliation of team output and to the statistical methods.
+
+
+**Do you think the task assignments were fairly assigned and appropriate given each member’s background and skills? If no, how would you change it?**
+
+- Yes I can comfortably say that, at the end, everyone did their part and was willing, and did, go beyond what was initially specified. It was a fair team play among the members given their skills. 
+
+
+## YOUR SPECIFIC CONTRIBUTIONS AND COMMENTS 
+
+**Explain what are your contributions to the project?**
+
+* I contributed greatly to the statistical methods and analysis: establishing the backbone and a big swath of the code that was stipulated in the proposal. I took lead on breaking down the project and making it as approachable as possible. 
+
+* I took the initiative to do pathway analysis and then performed thorough biochemical analysis backed up by comprehensive search on literature and in reference to the original paper.
+
+* I contributed to the organization of the project milestones, deadlines, and roles. 
+
+
+**What worked well and what did not? What was the most challenging or rewarding moment during your group project?**
+
+* I remarked a big issue at the onset. The interventions had many control. I was puzzled how to tackle the DEG analysis. The original paper did not include any methods for their analysis. I came up with the solution of separating into multiple contrast matrices and modifying the original DESEQ function accordingly. It was painful to do the manifold analysis involving the many interventions and their respective controls. It was then more challenging to reconcile all the results together. It was a triumph to have UpSet plot work which demosntrated some of the overlap among DEGs of interventions. Another triumph was to finally get the pathways analysis working and then reconciling those as well based on normalzied enrichment scores.
+
+
+**How did you find having members of different backgrounds for a scientific project?**
+
+It was very enriching to work with people of diverse backgrounds. Truly, their background skills fell into their rightful place at each step of the project. This highlights how interdiscplinary collaboration is useful on many scales. Truly thankful for my team.
+
+**What have you learned from this group project?**
+
+- I learned a great deal. Faced with RNA seq data i am now equipped with all the know-hows to analyze them fully from scratch. I learned great depths of DESEQ tool, i learned the utilization of contrast matrices, more on controlling false positive rate, pathway analyses, correlation analyses, making functions in R, a lot about error handling, Log2FC data manipulation, oral presentation skill honing, about github technicalities, team play, and incentivization and efficient labor division.
+
+
+**Any other comments on how the group project could have been structured differently (i.e. delivery requirements, assessment”)**
+
+- Honestly, this had been one of the most useful courses i have ever took in my ubc time and the project, like the course, is very well organized. Everything is top-notch honestly. Thank you so much Dr. Keegan Korthauer and Dr. Yongjin Park. You are very knowledgeable and I have truly learned a lot of very practical and useful things from this project and from all the *extremely practical* assignments. 
